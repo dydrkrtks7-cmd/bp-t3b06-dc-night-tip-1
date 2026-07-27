@@ -2,318 +2,103 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>등촌 유흥 꿀팁 – 전문가 정보</title>
-    <meta name="description" content="등촌 유흥 업소의 실제 데이터 기반 꿀팁. 방문 전 확인해야 할 7가지 핵심 포인트, 업종별 추천, 고객 리뷰 분석을 전문가 관점에서 제공합니다. 신뢰할 수 있는 등촌 유흥 정보의 기준.">
-    <meta name="keywords" content="등촌 유흥, 등촌 꿀팁, 등촌 유흥업소, 등촌 밤문화, 등촌 유흥정보">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://t3b06-dc-night-tip-1.vercel.app/">
-    <meta property="og:title" content="등촌 유흥 꿀팁 – 브루탈리스트 인사이트">
-    <meta property="og:description" content="등촌 유흥 업소의 실제 데이터 기반 꿀팁. 방문 전 확인해야 할 핵심 포인트를 전문가가 분석합니다.">
+    <title>등촌 유흥 정보 — 현장 체크포인트와 활용 팁</title>
+    <meta name="description" content="등촌 유흥을 처음 방문하거나 재방문할 때 꼭 알아야 할 현장 체크포인트와 상황별 선택 기준, 정산·연장 방법을 상세히 안내합니다.">
+    <meta name="keywords" content="등촌, 유흥, 정보, 체크포인트, 정산, 연장, 이용 팁">
+    <link rel="canonical" href="https://deungchon-night-tip.link-hub.org/about.html">
+    <meta property="og:title" content="등촌 유흥 정보 — 현장 체크포인트와 활용 팁">
+    <meta property="og:description" content="등촌 유흥을 처음 방문하거나 재방문할 때 꼭 알아야 할 현장 체크포인트와 상황별 선택 기준, 정산·연장 방법을 상세히 안내합니다.">
+    <meta property="og:url" content="https://deungchon-night-tip.link-hub.org/about.html">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="ko_KR">
-    <style>
-        /* RESET & BASE */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #0a0a0a;
-            color: #e0e0e0;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-            border-bottom: 2px solid #00ffc8;
-        }
-        a:hover {
-            background-color: #00ffc8;
-            color: #0a0a0a;
-        }
-        img, svg {
-            max-width: 100%;
-            display: block;
-        }
-
-        /* BRUTALIST CORE */
-        :root {
-            --neon-green: #00ffc8;
-            --neon-pink: #ff007f;
-            --dark-bg: #0a0a0a;
-            --off-white: #e0e0e0;
-            --border-thick: 4px solid var(--neon-green);
-            --box-shadow: 8px 8px 0px 0px var(--neon-green);
-        }
-
-        /* TYPOGRAPHY */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            text-transform: uppercase;
-        }
-        h1 {
-            font-size: clamp(2rem, 5vw, 4rem);
-            border-left: 8px solid var(--neon-pink);
-            padding-left: 1rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.1;
-        }
-        h2 {
-            font-size: clamp(1.5rem, 4vw, 2.8rem);
-            border-bottom: 3px solid var(--neon-green);
-            padding-bottom: 0.5rem;
-            margin-top: 2.5rem;
-            margin-bottom: 1.2rem;
-        }
-        h3 {
-            font-size: clamp(1.2rem, 3vw, 2rem);
-            margin-top: 1.8rem;
-            margin-bottom: 0.8rem;
-            color: var(--neon-green);
-        }
-        p, li, blockquote {
-            font-size: clamp(1rem, 2vw, 1.15rem);
-            margin-bottom: 1rem;
-        }
-        .accent {
-            color: var(--neon-pink);
-            font-weight: bold;
-        }
-
-        /* LAYOUTS */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        .full-bleed {
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-            padding: 2rem 1.5rem;
-            background: #111;
-            border-top: 2px solid var(--neon-green);
-            border-bottom: 2px solid var(--neon-green);
-        }
-        /* HEADER & NAV */
-        header {
-            padding: 1.5rem 0;
-            border-bottom: var(--border-thick);
-        }
-        .header-flex {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            color: var(--neon-green);
-            letter-spacing: 0.05em;
-        }
-        nav {
-            display: flex;
-            gap: 1.5rem;
-            align-items: center;
-        }
-        nav a {
-            font-size: 1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-bottom: none;
-            padding: 0.3rem 0.6rem;
-        }
-        nav a:hover {
-            background-color: var(--neon-pink);
-            color: #0a0a0a;
-        }
-        /* 햄버거 메뉴 (모바일 대비) */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-        }
-        .hamburger span {
-            width: 28px;
-            height: 3px;
-            background-color: var(--neon-green);
-            display: block;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            nav {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                padding-top: 1rem;
-                gap: 0.8rem;
-            }
-            nav.active {
-                display: flex;
-            }
-        }
-        /* 전화 링크 스타일 */
-        .tel-link {
-            border: 2px solid var(--neon-green);
-            padding: 0.3rem 0.8rem;
-            font-weight: bold;
-            background: #111;
-        }
-        .tel-link:hover {
-            background: var(--neon-green);
-            color: #0a0a0a;
-        }
-
-        /* 카드/섹션 */
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-        .card {
-            background: #151515;
-            border: 2px solid var(--neon-green);
-            padding: 1.5rem;
-            transition: transform 0.2s;
-        }
-        .card:hover {
-            transform: translate(-4px, -4px);
-            box-shadow: var(--box-shadow);
-        }
-        .card h3 {
-            margin-top: 0;
-            border-bottom: 1px solid var(--neon-pink);
-            padding-bottom: 0.3rem;
-        }
-
-        /* FAQ */
-        .faq-item {
-            border-left: 4px solid var(--neon-pink);
-            padding-left: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        .faq-item h4 {
-            font-size: 1.2rem;
-            color: var(--neon-green);
-            margin-bottom: 0.3rem;
-        }
-
-        /* FOOTER */
-        footer {
-            margin-top: 4rem;
-            padding: 2rem 0;
-            border-top: var(--border-thick);
-            text-align: center;
-            font-size: 0.9rem;
-        }
-        footer a {
-            border-bottom: 1px solid var(--neon-pink);
-        }
-
-        /* 반응형 */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 1rem;
-            }
-            .full-bleed {
-                padding: 1.5rem 1rem;
-            }
-            .header-flex {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            nav {
-                margin-top: 1rem;
-            }
-        }
-    </style>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="등촌 유흥 정보 — 현장 체크포인트와 활용 팁">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container header-flex">
-            <div class="logo">등촌 유흥 꿀팁</div>
-            <div class="hamburger" onclick="this.nextElementSibling.classList.toggle('active')">
-                <span></span><span></span><span></span>
-            </div>
-            <nav>
-                <a href="/">홈</a>
-                <a href="/guide">가이드</a>
-                <a href="/info" style="border-bottom: 3px solid #ff007f;">정보</a>
-                <a href="/review">리뷰</a>
-                <a href="/contact" class="tel-link">문의</a>
-            </nav>
-        </div>
+    <header class="x-head-hzg6">
+        <h1 class="n-head-0qvw">등촌 유흥 정보</h1>
+        <nav class="x-wrap-xwxu">
+            <a href="/index.html" class="m-btn-2z44">홈</a>
+            <a href="/guide.html" class="m-btn-2z44">가이드</a>
+            <a href="/info.html" class="m-btn-2z44">정보</a>
+            <a href="/faq.html" class="m-btn-2z44">FAQ</a>
+            <a href="/contact.html" class="m-btn-2z44">연락처</a>
+        </nav>
     </header>
 
     <main>
-        <section class="container" style="padding-top: 2rem;">
-            <h1>등촌 유흥 <span class="accent">꿀팁</span> 전문가 정보</h1>
-            <p>본 페이지는 등촌 지역 유흥 업소에 대한 <strong>데이터 기반 분석</strong>과 방문 전 반드시 숙지해야 할 핵심 포인트를 제공합니다. 2023~2025년 고객 리뷰 3,200건을 정량 분석한 결과를 바탕으로, 객관적이고 신뢰할 수 있는 정보를 전달합니다. 등촌 유흥을 처음 접하는 분들부터 경험자까지 모두에게 유용한 통찰을 드립니다.</p>
-        </section>
-
-        <section class="container">
-            <h2>등촌 유흥 방문 전 7가지 핵심 포인트</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>1. 업소별 시간대 분석</h3>
-                    <p>데이터에 따르면 등촌 유흥 업소의 평균 피크 타임은 <span class="accent">21:00~23:00</span>입니다. 이 시간대는 대기 시간이 40% 증가하므로, 여유로운 방문을 원한다면 19:00~20:00 혹은 23:30 이후를 추천합니다.</p>
-                </div>
-                <div class="card">
-                    <h3>2. 테이블 vs 룸 선택</h3>
-                    <p>2~4인 그룹은 테이블, 5인 이상은 룸 이용이 비용 효율적입니다. 등촌 지역 룸 업소의 1인당 평균 지출은 테이블 대비 22% 낮으며, 프라이버시 만족도는 35% 더 높습니다.</p>
-                </div>
-                <div class="card">
-                    <h3>3. 사전 예약 필수 여부</h3>
-                    <p>주말(금~토) 예약률은 89%로, <strong>사전 예약 없이 방문 시 70% 이상이 입장 불가</strong>합니다. 평일에도 인기 업소는 오후 6시 이전 예약이 안전합니다.</p>
-                </div>
-                <div class="card">
-                    <h3>4. 최소 주문 금액 확인</h3>
-                    <p>등촌 유흥 업소의 평균 1인당 최소 주문 금액은 <span class="accent">35,000원~50,000원</span>입니다. 일부 업소는 테이블별 최소 주문을 적용하니 방문 전 확인하세요.</p>
-                </div>
-                <div class="card">
-                    <h3>5. 결제 방식 주의사항</h3>
-                    <p>현금 결제 시 5~10% 할인을 제공하는 업소가 전체의 38%입니다. 단, 카드 결제만 가능한 업소도 있으므로 반드시 사전 문의하시기 바랍니다.</p>
-                </div>
-                <div class="card">
-                    <h3>6. 음주 측정 이슈</h3>
-                    <p>등촌 지역은 단속이 빈번한 지역 중 하나입니다. 업소 출입 시 음주 측정을 요구하는 경우가 전체 방문의 17%에 달하므로, 대리운전이나 대중교통 이용을 강력 권장합니다.</p>
-                </div>
-                <div class="card">
-                    <h3>7. 리뷰 데이터 신뢰도</h3>
-                    <p>2024년 등촌 유흥 업소 리뷰 중 12%가 허위 또는 과장된 것으로 추정됩니다. <strong>실제 데이터</strong>를 원한다면 포털 리뷰보다 전문 사이트의 분석 정보를 참고하세요.</p>
-                </div>
+        <!-- 기본 현장 체크포인트 -->
+        <section class="x-wrap-xwxu">
+            <h2 class="n-head-0qvw">현장 체크포인트</h2>
+            <p class="n-txt-nc22">
+                등촌에 위치한 유흥업소를 방문하기 전, 먼저 확인해야 하는 기본적인 체크포인트가 있습니다. 입구에서 보이는 영업시간 안내표시와 내부 인테리어가 최신 규정에 맞게 운영되고 있는지 눈여겨보세요. 특히, 손님을 맞이하는 직원들의 복장 및 매너는 서비스 품질을 가늠할 수 있는 중요한 요소입니다.
+            </p>
+            <p class="n-txt-nc22">
+                두 번째로 살펴볼 항목은 보안 및 안전 설비입니다. 비상구 표시가 명확히 보이고, 화재경보 장치가 정상 작동하는지 확인하세요. 비회원 전용 구역이 있다면, 해당 구역에 대한 접근 제한이 적절히 관리되고 있는지도 체크해두면 좋습니다. 이런 사전 점검은 예상치 못한 상황을 예방하고, 보다 안심하고 즐길 수 있는 환경을 만들어 줍니다.
+            </p>
+            <div class="v-img-c3tf">
+                <a href="/images/checkpoint.jpg"><img src="/images/checkpoint_thumb.jpg" alt="현장 체크포인트 사진"></a>
             </div>
         </section>
 
-        <section class="container">
-            <h2>업종별 추천</h2>
-            <p>등촌 유흥은 크게 <span class="accent">룸싸롱, 노래방, 주점, 클럽</span> 등으로 구분됩니다. 고객 리뷰 데이터와 방문자 설문조사(N=1,200)를 기반으로 각 업종별 특성을 분석했습니다.</p>
-            <div class="card-grid" style="margin-top: 1.5rem;">
-                <div class="card">
-                    <h3>룸싸롱</h3>
-                    <p>비즈니스 접대와 단체 모임에 적합합니다. 등촌 내 8개 주요 룸싸롱의 평균 체류 시간은 3.2시간이며, 1인당 평균 지출은 12~18만원입니다. 만족도는 4.2/5.0으로 가장 높은 점수를 기록했습니다.</p>
-                </div>
-                <div class="card">
-                    <h3>노래방</h3>
-                    <p>가성비를 중시하는 소규모 그룹에 추천합니다. 1인당 평균 지출 2~4만원으로 부담이 적으며, 최신 시설을 갖춘 업소가 60% 이상입니다. 피크타임은 21:00~00:00입니다.</p>
-                </div>
-                <div class="card">
-                    <h3>주점</h3>
-                    <p>술 위주의 편안한 분위기를 원한다면 주점이 적합합니다. 등촌에는 약 15개의 주점이 있으며, 안주 퀄리티 평점이 4.5/5.0으로 매우 높습니다
+        <!-- 인원·시간·목적별 선택 가이드 -->
+        <section class="x-wrap-xwxu">
+            <h2 class="n-head-0qvw">인원·시간·목적별 선택 가이드</h2>
+            <p class="n-txt-nc22">
+                <strong>1인·2인</strong>일 경우, 개인 접객이 가능한 라운지를 선택하는 것이 효율적입니다. 이때는 최소 이용시간을 확인하고, 가격이 시간당 얼마인지를 미리 계산해 두면 과다 결제 위험을 줄일 수 있습니다. 또한, 라운지 내부에 제공되는 음료·주류 옵션을 비교해보면 추가 비용 없이 즐길 수 있는 혜택을 놓치지 않을 수 있습니다.
+            </p>
+            <p class="n-txt-nc22">
+                <strong>3~5인</strong>의 소규모 그룹이라면, 다자석이 구비된 프라이빗룸을 추천합니다. 프라이빗룸은 보통 기본 이용시간이 길고, 인원당 요금이 낮게 책정되는 경우가 많습니다. 예약 시 최소 인원 제한과 추가 인원에 대한 비용 정책을 정확히 파악해 두세요. 또한, 방 내에 제공되는 음료 패키지와 추가 주문 가능한 메뉴를 미리 체크하면, 중간에 발생하는 추가 비용을 방지할 수 있습니다.
+            </p>
+            <p class="n-txt-nc22">
+                <strong>6인 이상</strong>의 대규모 모임이라면, 전용 파티룸이나 클럽 형태의 공간을 선택하는 것이 현명합니다. 이때는 입장 전 사전 계약서에 명시된 연장료와 추가 서비스 비용을 반드시 검토해야 합니다. 특히, 연장 처리 시 최소 단위(예: 30분)와 그에 따른 요금 변동을 미리 파악하면, 예상보다 높은 비용이 청구되는 상황을 예방할 수 있습니다.
+            </p>
+            <div class="v-img-c3tf">
+                <a href="/images/group.jpg"><img src="/images/group_thumb.jpg" alt="그룹 이용 사진"></a>
+            </div>
+        </section>
+
+        <!-- 정산·연장 팁 -->
+        <section class="x-wrap-xwxu">
+            <h2 class="n-head-0qvw">정산·연장 실전 팁</h2>
+            <p class="n-txt-nc22">
+                정산 방식은 현금·카드·모바일 결제 등 다양하게 제공됩니다. 현금 결제 시에는 반드시 영수증을 받아두고, 금액이 정확히 맞는지 확인하세요. 카드 결제는 익스프레스 결제 단축키를 활용하면 대기시간을 크게 줄일 수 있습니다. 모바일 결제는 사전에 앱을 다운로드하고, 포인트 적립 여부를 확인하는 것이 좋습니다.
+            </p>
+            <p class="n-txt-nc22">
+                연장은 보통 30분 단위로 이루어지며, 최소 연장시간보다 짧게 요청하면 거절당할 수 있습니다. 따라서, 이용 종료 10분 전쯤에 미리 연장 의사를 전달하고, 연장료를 확인해 두세요. 또한, 연장 시 기존 이용 요금과 중복 청구되지 않도록 결제 내역을 재확인하는 습관을 들이면, 불필요한 비용을 방지할 수 있습니다.
+            </p>
+            <p class="n-txt-nc22">
+                만약 정산 과정에서 금액 차이가 발생했을 경우, 즉시 직원에게 상황을 설명하고 영수증과 결제 내역을 비교해 보세요. 대부분의 업체는 현장에 있는 매니저를 통해 즉시 조정해 주며, 필요 시에는 고객센터 전화번호를 통해 사후 처리도 가능합니다. 이러한 절차를 숙지하고 있으면, 불편한 상황을 빠르게 해결할 수 있습니다.
+            </p>
+            <div class="v-img-c3tf">
+                <a href="/images/payment.jpg"><img src="/images/payment_thumb.jpg" alt="정산 화면 사진"></a>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="x-wrap-xwxu">
+            <h2 class="n-head-0qvw">자주 묻는 질문 (FAQ)</h2>
+            <h3 class="n-head-0qvw">1. 최소 이용시간은 어떻게 확인하나요?</h3>
+            <p class="n-txt-nc22">
+                대부분의 업소는 입구 안내판이나 웹사이트에 최소 이용시간을 고시합니다. 현장에서 확인이 어려울 경우, 직원에게 직접 문의하거나 전화 예약 시 최소 이용시간을 확인하는 것이 안전합니다.
+            </p>
+            <h3 class="n-head-0qvw">2. 연장 요금은 어떤 기준으로 부과되나요?</h3>
+            <p class="n-txt-nc22">
+                연장 요금은 기본 이용시간을 초과한 분당 요금으로 산정됩니다. 일반적으로 30분 단위로 최소 연장료가 정해져 있으며, 인원수와 방 종류에 따라 차등 적용될 수 있습니다. 예약 시 계약서에 연장료를 명시하도록 요청하세요.
+            </p>
+            <h3 class="n-head-0qvw">3. 카드 결제 시 추가 비용이 발생할 수 있나요?</h3>
+            <p class="n-txt-nc22">
+                일부 업체는 카드 결제 시 수수료를 전가하는 경우가 있습니다. 결제 전 영수증에 수수료 항목이 포함되는지 확인하고, 필요 시 현금 결제 옵션을 선택하는 것이 비용 절감에 도움이 됩니다.
+            </p>
+            <h3 class="n-head-0qvw">4. 예약을 취소하거나 변경하고 싶을 때는 어떻게 해야 하나요?</h3>
+            <p class="n-txt-nc22">
+                대부분의 업소는 예약 24시간 전까지는 무료 취소를 허용하지만, 이후에는 일부 위약금이 부과됩니다. 계약서에 명시된 취소 정책을 꼭 읽어보고, 가능한 빨리 고객센터에 연락해 상황을 설명하면 원활하게 처리됩니다.
+            </p>
+        </section>
+    </main>
+
+    <footer class="x-head-hzg6">
+        <p class="n-txt-nc22">© 2026 등촌 유흥 정보 제공. 모든 권리 보유.</p>
+    </footer>
 </body>
 </html>
