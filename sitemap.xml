@@ -16,42 +16,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0241.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0242.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0243.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0244.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0245.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0246.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0247.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0248.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -72,6 +37,101 @@
   </url>
   <url>
     <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0252.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0105.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0109.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0110.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/interview-002-1i1blrv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/review-002-1061rh1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/t3link-001-1061rh1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0241.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0242.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0243.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0245.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0246.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0247.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260719-0248.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -146,11 +206,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0105.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0106.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -162,66 +217,6 @@
   </url>
   <url>
     <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0108.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0109.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/gemini-coverage-20260722-0110.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/interview-002-1i1blrv.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/normal-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/review-002-1061rh1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts/t3link-001-1061rh1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deungchon-night-tip.link-hub.org/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
